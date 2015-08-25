@@ -6,19 +6,39 @@
 
 int main() {
 
-    float commission, value;
-    printf("Enter value of trade: ");
-    scanf("%f", &value);
+    printf("Enter date (mm,dd,yy):");
+    int m, d, y;
+    scanf("%d%d%d", &m, &d, &y);
+    printf("Dated this %d", d);
+    switch (d) {
+        case 1:
+        case 21:
+        case 31:
+            printf("st");
+            break;
+        case 2:
+        case 22:
+            printf("nd");
+            break;
+        case 3:
+        case 23:
+            printf("rd");
+            break;
 
-    if (value < 2500.00f)
-        commission = 30.00f + .017f * value;
-    else if (value < 6250.00f)
-        commission = 76.00f + .0034f * value;
-    else if (value < 20000.00f)
-        commission = 76.00f + .0034f * value;
-    else commission = 155.00f + 0.11f * value;
+        default:
+            printf("th");
+    }
 
-    int a;
+    printf(" day of ");
+    switch (m) {
+        case 1:
+            printf("January");
+            break;
+        case 2:
+            printf("February");
+            break;
+    }
 
+    printf(", %d", y);
     return 0;
 }
