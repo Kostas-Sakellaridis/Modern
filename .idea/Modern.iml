@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/chapter3/test.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter4/exercises4.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter4/test4.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter5/exercises5.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter5/test.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/proto.c" isTestSource="false" />
     </content>
