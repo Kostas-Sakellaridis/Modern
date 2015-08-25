@@ -17,7 +17,7 @@ int main() {
     else if (value < 20000.00f)
         commission = 76.00f + .0034f * value;
     else commission = 155.00f + 0.11f * value;
-    
+
 
     return 0;
 }
