@@ -11,6 +11,9 @@
       <sourceFolder url="file://$MODULE_DIR$/chapter4/test4.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter5/exercises5.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter5/test.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter6/exercises6.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter6/test6.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter7/test7.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/proto.c" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
